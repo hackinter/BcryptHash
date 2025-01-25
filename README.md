@@ -43,7 +43,7 @@ A simple Python-based tool to work with Bcrypt hashes. This tool allows users to
 4. Follow the prompts in the terminal to use the tool's features.
 
 ## Example Output 🖥️:
-
+### Generate a Random Bcrypt Hash
 ```
 ⚡ Please enter your password ⚡
 Enter password: 
@@ -59,6 +59,7 @@ Choose an option (1-5): 1
 Enter a password to hash:loveyou
 Generated Hash: $2b$12$96csxV6kfw2e4iARbqVW7uPSG9jf4BVchP5PpboaW4S8kp1Y2ryY2
 ```
+### Bcrypt Hash Verifier
 ```
 Welcome to the Bcrypt Tool
 
@@ -72,6 +73,7 @@ Enter the bcrypt hash: $2b$12$96csxV6kfw2e4iARbqVW7uPSG9jf4BVchP5PpboaW4S8kp1Y2r
 Enter the password to verify:loveyou
 Password matches the hash!
 ```
+### Bcrypt Hash Brute Force (Educational Purpose Only)
 ```
 Welcome to the Bcrypt Tool
 
@@ -91,15 +93,15 @@ Password found: loveyou
 
 ## Brute Force (Educational Purpose Only) 🔓:
 
-The brute force option is designed for educational purposes to demonstrate how password hashes can be cracked using a wordlist. It is highly recommended to use strong and complex passwords to prevent brute-force attacks. 🛡️
+The brute force option is designed for educational purposes to demonstrate how password hashes can be cracked using a wordlist. Using strong and complex passwords to prevent brute-force attacks is highly recommended. 🛡️
 
-**Disclaimer**: This tool is for educational purposes only. Use it responsibly and only on systems where you have explicit permission to test. 🚫
+**Disclaimer**: This tool is for educational purposes only. Use it responsibly and only on systems with explicit permission to test. 🚫
 
 ## License 📜
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/hackinter/oneclick/blob/main/LICENSE) file for more details.
 
 ## Contributing 🤝
-We welcome contributions! If you would like to contribute, feel free to fork the repository and submit a pull request. If you encounter any bugs or have suggestions, please open an issue.
+We welcome contributions! If you'd like to contribute, you can fix the repository and submit a pull request. If you encounter any bugs or have suggestions, please open an issue.
 
 ## Contact 📧
 For any queries or issues, feel free to reach out to us:
