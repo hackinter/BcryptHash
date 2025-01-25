@@ -39,14 +39,19 @@ A simple Python-based tool to work with Bcrypt hashes. This tool allows users to
    ```bash
    python3 Bcrypt.py
    ```
+4.Tool Password
+```bash
+loveyou
+```
+   
 
-4. Follow the prompts in the terminal to use the tool's features.
+5. Follow the prompts in the terminal to use the tool's features.
 
 ## Example Output 🖥️:
 ### Generate a Random Bcrypt Hash
 ```bash
 ⚡ Please enter your password ⚡
-Enter password: 
+Enter password: loveyou  (The text will not be visible.)
 Login successful! 🎉
 Welcome to the Bcrypt Tool
 
@@ -56,7 +61,7 @@ Welcome to the Bcrypt Tool
 4. Help
 5. Exit
 Choose an option (1-5): 1
-Enter a password to hash: loveyou
+Enter a password to hash: loveyou (The text will not be visible.)
 Generated Hash: $2b$12$96csxV6kfw2e4iARbqVW7uPSG9jf4BVchP5PpboaW4S8kp1Y2ryY2
 ```
 
@@ -71,7 +76,7 @@ Welcome to the Bcrypt Tool
 5. Exit
 Choose an option (1-5): 2
 Enter the bcrypt hash: $2b$12$96csxV6kfw2e4iARbqVW7uPSG9jf4BVchP5PpboaW4S8kp1Y2ryY2
-Enter the password to verify: loveyou
+Enter the password to verify: loveyou (The text will not be visible.)
 Password matches the hash!
 ```
 
@@ -90,7 +95,7 @@ Enter the bcrypt hash: $2b$12$96csxV6kfw2e4iARbqVW7uPSG9jf4BVchP5PpboaW4S8kp1Y2r
 Enter the path to the wordlist: /usr/share/wordlists/rockyou.txt
 Starting brute force...
 Attempting passwords:   0%|                                                     | 51/14344391 [00:09<743:33:06,  5.36password/s]
-Password found: loveyou
+Password found: loveyou (The text will be visible here.)
 ```
 
 ## Brute Force (Educational Purpose Only) 🔓:
