@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 # Dummy user login system (for educational purposes)
 users = {
-    "admin": b"$2a$04$aF7ehXwwvWoBRlLGgrar9eZeF7d9a6hLLGrCd423geglRonEjyVlO",  # Hashed password for 'admin'
+    "admin": b"$2b$12$96csxV6kfw2e4iARbqVW7uPSG9jf4BVchP5PpboaW4S8kp1Y2ryY2",  # Hashed password for 'admin'
 }
 
 # Function to verify bcrypt hash match
