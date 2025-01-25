@@ -1,3 +1,14 @@
+আপনার লেখা বর্তমানে ভালোই ডিজাইন করা এবং টার্মিনাল আউটপুটের মতো আউটপুট প্রদর্শন করছে। তবে, আপনি যদি পুরোপুরি টার্মিনাল লুক অ্যান্ড ফিল চান, তাহলে কিছু ছোট ছোট পরিবর্তন করতে হবে। এখানে কিছু প্রস্তাবনা:
+
+1. **Code block style**: টার্মিনাল আউটপুটের মতো দেখতে, কোড ব্লককে আরও অ্যাডভান্সড স্টাইল দেওয়া যায়। Markdown-এ আপনি `bash` কোড ব্লক ব্যবহার করতে পারেন, যা কিছুটা টার্মিনালের মতো দেখতে হবে।
+
+2. **Font style**: `README.md` ফাইলের জন্য আপনি শুধু **monospace font** ব্যবহার করতে পারেন, যেটি টার্মিনাল লুক তৈরির জন্য আদর্শ।
+
+এখন আমি কিছু পরিবর্তন করে দিচ্ছি যাতে আপনি পুরোপুরি টার্মিনাল স্টাইল পেতে পারেন।
+
+### পরিবর্তিত `README.md` কোড:
+
+```markdown
 # BcryptHash 🔐
 
 A simple Python-based tool to work with Bcrypt hashes. This tool allows users to generate random Bcrypt hashes, verify them, and even perform a brute force attack for educational purposes only. 🎓
@@ -44,7 +55,7 @@ A simple Python-based tool to work with Bcrypt hashes. This tool allows users to
 
 ## Example Output 🖥️:
 ### Generate a Random Bcrypt Hash
-```
+```bash
 ⚡ Please enter your password ⚡
 Enter password: 
 Login successful! 🎉
@@ -56,11 +67,12 @@ Welcome to the Bcrypt Tool
 4. Help
 5. Exit
 Choose an option (1-5): 1
-Enter a password to hash:loveyou
+Enter a password to hash: loveyou
 Generated Hash: $2b$12$96csxV6kfw2e4iARbqVW7uPSG9jf4BVchP5PpboaW4S8kp1Y2ryY2
 ```
+
 ### Bcrypt Hash Verifier
-```
+```bash
 Welcome to the Bcrypt Tool
 
 1. Generate a Random Bcrypt Hash
@@ -70,11 +82,12 @@ Welcome to the Bcrypt Tool
 5. Exit
 Choose an option (1-5): 2
 Enter the bcrypt hash: $2b$12$96csxV6kfw2e4iARbqVW7uPSG9jf4BVchP5PpboaW4S8kp1Y2ryY2
-Enter the password to verify:loveyou
+Enter the password to verify: loveyou
 Password matches the hash!
 ```
+
 ### Bcrypt Hash Brute Force (Educational Purpose Only)
-```
+```bash
 Welcome to the Bcrypt Tool
 
 1. Generate Random Bcrypt Hash
@@ -98,7 +111,7 @@ The brute force option is designed for educational purposes to demonstrate how p
 **Disclaimer**: This tool is for educational purposes only. Use it responsibly and only on systems with explicit permission to test. 🚫
 
 ## License 📜
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/hackinter/oneclick/blob/main/LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/hackinter/BcryptHash/blob/main/LICENSE) file for more details.
 
 ## Contributing 🤝
 We welcome contributions! If you'd like to contribute, you can fix the repository and submit a pull request. If you encounter any bugs or have suggestions, please open an issue.
@@ -112,9 +125,3 @@ For any queries or issues, feel free to reach out to us:
 
 ## Author ✍️
 - **HACKINTER** | [GitHub](https://github.com/hackinter)
-
-## License Details 📜
-MIT License
-```
-
-This version uses emojis to make it more visually engaging and adds a badge section for versioning and GitHub profile links. Let me know if you'd like further adjustments!
