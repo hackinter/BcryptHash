@@ -26,8 +26,8 @@ A simple Python-based tool to work with Bcrypt hashes. This tool allows users to
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hackinter/MY-HASH.git
-   cd MY-HASH
+   git clone https://github.com/hackinter/BcryptHash.git
+   cd BcryptHash
    ```
 
 2. Install the required dependencies:
