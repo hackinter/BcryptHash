@@ -1,3 +1,7 @@
+<div align="center">
+<a href="https://github.com/github/hackathons"><img src="https://github.com/github/hackathons/blob/main/.github/images/GitHub%20Hackathons%20Logo.png" width="100"></a>
+</div>
+
 # BcryptHash 🔐
 
 A simple Python-based tool to work with Bcrypt hashes. This tool allows users to generate random Bcrypt hashes, verify them, and even perform a brute force attack for educational purposes only. 🎓
